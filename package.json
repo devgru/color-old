@@ -1,11 +1,20 @@
 {
   "name": "color-react-old",
   "version": "0.1.0",
+  "homepage": "https://devgru.github.io/color-old",
   "private": true,
   "dependencies": {
+    "classnames": "^2.2.6",
+    "closest-color": "^1.2.1",
+    "d3-array": "^2.0.3",
+    "d3-color": "^1.2.3",
+    "deltae": "^0.0.4",
+    "lodash.uniq": "^4.5.0",
+    "object-map": "^1.0.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
+    "react-scripts": "3.0.0",
+    "round-to-precision": "^1.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
